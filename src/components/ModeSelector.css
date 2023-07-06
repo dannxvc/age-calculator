@@ -1,0 +1,6 @@
+.mode_selector {
+  @apply p-2 border-solid border-[1px]
+   rounded-lg border-gray w-full 
+   text-gray_md font-semibold text-[14px]
+   bg-white dark:bg-black_md;
+}
