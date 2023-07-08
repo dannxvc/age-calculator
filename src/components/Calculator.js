@@ -69,6 +69,7 @@ function Calculator() {
           placeholder={"DD"}
           label={"DÍA"}
           value={day}
+          name="day_of_birth"
           min={1}
           max={31}
           handleChange={(e) => onChange(e, "day")}
@@ -76,6 +77,7 @@ function Calculator() {
         <Input
           placeholder={"MM"}
           label={"MES"}
+          name="month_of_birth"
           value={month}
           min={1}
           max={12}
@@ -85,6 +87,7 @@ function Calculator() {
           placeholder={"YY"}
           label={"AÑO"}
           value={year}
+          name="year_of_birth"
           min={0}
           max={2023}
           handleChange={(e) => onChange(e, "year")}

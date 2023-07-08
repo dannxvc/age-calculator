@@ -11,11 +11,29 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+header {
+  @apply flex flex-col items-center;
+}
 .title {
-  @apply text-[1.4rem]  text-center text-gray_dark;
+  @apply text-[1.4rem] text-center text-gray_darker dark:text-white;
+}
+.title_description {
+  @apply text-[0.9rem]  text-gray_darker dark:text-gray text-center w-[90%] max-w-[30rem];
+}
+main {
+  @apply flex flex-col gap-10;
+}
+.footer {
+  @apply text-center text-gray_dark;
+}
+.enlace {
+  @apply text-black dark:text-white;
 }
 @media only screen and (min-width: 42rem) {
   .title {
     @apply text-[2rem];
+  }
+  .title_description {
+    @apply text-[1rem];
   }
 }
