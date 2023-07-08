@@ -1,3 +1,5 @@
+import "./ModeSelector.css";
+
 import { useEffect, useState } from "react";
 function ModeSelector() {
   const [theme, setTheme] = useState(null);

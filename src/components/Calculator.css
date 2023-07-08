@@ -1,0 +1,20 @@
+.calculator {
+  @apply bg-white dark:bg-black_md p-[2rem] rounded-[1rem] rounded-br-[6rem];
+}
+.inputs_container {
+  @apply flex flex-col gap-[1rem];
+}
+.separator {
+  @apply border-gray mt-12 mb-8;
+}
+.btn-container {
+  @apply relative;
+}
+@media only screen and (min-width: 42rem) {
+  .calculator {
+    @apply rounded-[2rem] rounded-br-[10rem];
+  }
+  .inputs_container {
+    @apply flex-row gap-[2rem];
+  }
+}

@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <div className="app_container">
-        <h1>Calcula tu edad</h1>
+        <h1 className="title">CALCULA TU EDAD</h1>
         <ModeSelector />
         <Calculator />
       </div>

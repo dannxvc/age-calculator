@@ -1,0 +1,14 @@
+.calculator_input {
+  @apply p-2 border-solid border-[1px]
+     rounded-lg border-gray w-full 
+     text-gray_md font-semibold text-[14px]
+     bg-white dark:bg-black_md;
+}
+.calculator_label {
+  @apply text-gray_md font-semibold text-[12px];
+}
+@media only screen and (min-width: 42rem) {
+  .calculator_input {
+    @apply text-[20px];
+  }
+}

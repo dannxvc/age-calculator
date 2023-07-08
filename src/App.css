@@ -5,5 +5,17 @@ body {
   font-family: Poppins, sans-serif;
 }
 .app_container {
-  @apply w-[80%] max-w-[1006px] m-auto;
+  @apply w-[80%] max-w-[800px] flex flex-col gap-10;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.title {
+  @apply text-[1.4rem]  text-center text-gray_dark;
+}
+@media only screen and (min-width: 42rem) {
+  .title {
+    @apply text-[2rem];
+  }
 }

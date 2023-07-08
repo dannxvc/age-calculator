@@ -1,0 +1,5 @@
+.btn_calculate {
+  @apply bg-purple text-white 
+  dark:text-black_md p-2 rounded-full font-bold px-8
+  absolute right-6 -top-5 text-[1.2rem];
+}

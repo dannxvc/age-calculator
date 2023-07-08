@@ -1,0 +1,17 @@
+.result_number,
+.result_description {
+  @apply italic font-semibold text-[2rem];
+}
+
+.result_number {
+  @apply text-purple;
+}
+.result_description {
+  @apply text-black_md dark:text-white;
+}
+@media only screen and (min-width: 42rem) {
+  .result_number,
+  .result_description {
+    @apply italic font-semibold text-[4rem];
+  }
+}
