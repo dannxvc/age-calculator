@@ -1,10 +1,6 @@
 import "./Input.css";
 
 function Input({ value, placeholder, label, min, max, handleChange, name }) {
-  // const handleChange = (e) => {
-  //   const value = Math.max(min, Math.min(max, Number(e.target.value)));
-  //   setValue(value);
-  // };
   return (
     <div>
       <label htmlFor={name} className="calculator_label">
